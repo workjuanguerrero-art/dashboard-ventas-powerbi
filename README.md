@@ -36,3 +36,10 @@ Dashboard interactivo que permite explorar los resultados comerciales mediante f
 
 **Nota:** proyecto de práctica.
 
+
+## Vista previa del dashboard
+
+![Dashboard de ventas desarrollado en Power BI](Imagen.PNG)
+
+
+
