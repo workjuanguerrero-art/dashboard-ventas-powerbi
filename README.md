@@ -42,4 +42,46 @@ Dashboard interactivo que permite explorar los resultados comerciales mediante f
 ![Dashboard de ventas desarrollado en Power BI](Imagen.PNG)
 
 
+## Modelo de datos
+
+El proyecto utiliza un modelo de datos compuesto por cuatro tablas:
+
+- **Ventas:** contiene las transacciones comerciales, fechas, productos, regiones, importes de venta y costos.
+- **Productos:** contiene la información de los productos y sus categorías.
+- **Regiones:** contiene información geográfica para analizar las ventas por ciudad y zona.
+- **Calendario:** permite realizar análisis temporales y comparaciones entre períodos.
+
+Se establecieron relaciones entre las tablas de productos, regiones y calendario con la tabla de ventas para facilitar el análisis mediante filtros.
+
+## Medidas DAX
+
+Se desarrollaron medidas para calcular los principales indicadores comerciales:
+
+| Medida | Descripción |
+| Ventas Totales | Suma de los importes de ventas. |
+| Costos Totales | Suma de los costos registrados. |
+| Utilidad Total | Suma de la utilidad de las transacciones. |
+| Margen de Utilidad % | Relación entre la utilidad total y las ventas totales. |
+| Ventas Mes Anterior | Calcula las ventas del mes anterior. |
+| Variación Ventas | Diferencia entre las ventas del período actual y el anterior. |
+| Variación Ventas % | Variación relativa de las ventas entre períodos. |
+
+## Funcionalidades del dashboard
+
+- Indicadores KPI para ventas, utilidad, margen y variación mensual.
+- Evolución mensual de las ventas.
+- Comparación de ventas frente al mes anterior.
+- Análisis de ventas por categoría de producto y ciudad.
+- Segmentadores interactivos por período, canal de ventas y zona.
+
+## Validación de resultados
+
+Los resultados del dashboard se contrastaron con los datos de Excel, aplicando filtros equivalentes en ambas herramientas. Los valores obtenidos coincidieron durante las comprobaciones realizadas.
+
+## Datos y alcance
+
+Este proyecto utiliza datos ficticios con fines educativos y demostrativos.
+
+
+
 
